@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD Alpin</title>
+    <link rel="stylesheet" href="./indexStyle.css">
+    <script src="./indexScript.js" async></script>
+</head>
+<body>
+    <div class="container">
+        <div class="birthday-cake">
+            <div class="holder"></div>
+            <div class="shadow"></div>
+            <div class="cake">
+                <div class="chocolate"></div>
+            </div>
+            <div class="candle"></div>
+            <div class="flame"></div>
+        </div>
+
+        <div class="birthday-gift">
+            <div class="gift">
+                <input type="checkbox" id="click">
+                <label for="click" class="click" onclick="audio.play();"></label>
+
+                <script type="text/javascript">
+                    const audio = new Audio();
+                    audio.src = "./audio/hehe.mp3"
+                </script>
+
+                <div class="wishes">
+                    HBD PIPIN!
+                    <img src="./images/IMG_20221015_012155_648.jpg">
+                </div>
+                <div class="sparkles">
+                    <div class="spark1"></div>
+                    <div class="spark2"></div>
+                    <div class="spark3"></div>
+                    <div class="spark4"></div>
+                    <div class="spark5"></div>
+                    <div class="spark6"></div>
+                </div>
+            </div>
+            
+            <div class="other-gift"></div>
+            <div class="other-gift2"></div>
+        </div>
+
+        <div class="camera">
+            <button id="cam-button"></button>
+            <div id="circle"></div>
+            <div class="lens">
+                <div class="reflection"></div>
+            </div>
+            <div class="flash"></div>
+            <div class="stripes"></div>
+            <div class="bottom">
+                <div class="bottom-front"></div>
+            </div>
+            <div class="slot"></div>
+            <div class="cam-shadow"></div>
+            <div class="cam-photo" id="cam-photo">
+                <img src="./images/IMG_20221015_012153_128.jpg" style="width: 100%; height: auto; object-fit: cover;">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
